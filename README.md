@@ -1,3 +1,16 @@
+# Tenzies Game
+
+# Authors
+
+- [@Urvish Patel](https://github.com/The-UrvishPatel)
+
+
+# Preview
+
+- [Play Tenzies Game - Urvish Patel](https://the-urvishpatel.github.io/Tenzies-Game/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
