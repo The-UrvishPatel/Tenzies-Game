@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* 
+{
+ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;   
+}
+
+
+
+/* app */
+
+.game-area
+{
+    background-color: #0B2434;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* app over */
+
+
+/* game */
+
+.game
+{
+    width: 60%;
+    background-color: #F5F5F5;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 5px rgb(200, 200, 200, 0.2);
+}
+
+/* game over */
+
+
+
+
+/* title */
+
+.title-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    /* padding: 20px; */
+}
+
+.title
+{
+    font-size: 32px;
+    font-weight: 600;
+    color: #2B283A;
+    width: 100%;
+    text-align: center;
+}
+
+.description
+{
+    padding: 10px 20px;
+    color: #4A4E74;
+    text-align: center;
+    width: 100%;
+}
+
+.message
+{
+    color: #2B283A;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+/* title over */
+
+
+
+
+
+
+/* playgroung */
+
+.playground-container
+{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.playground
+{
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.roll
+{
+    /* width: 50px; */
+    padding: 5px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border: none;
+    background-color: hsl(203, 65%, 25%);
+    border-radius: 5px;
+    color: #F5F5F5;
+    box-shadow: 0 0px 20px 2px rgb(180, 180, 180, 0.3);
+}
+
+.roll:hover
+{
+    background-color: hsl(203, 65%, 20%);
+    cursor: pointer;
+}
+
+/* playgroung over */
+
+
+
+/* die */
+
+.die
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px 2px rgb(180, 180, 180, 0.3);
+    
+}
+
+.die:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0px 50px 2px rgb(180, 180, 180, 0.3);
+}
+
+.die-number
+{
+    color: #2B283A;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.lock
+{
+    background-color: #59E391;
+}
+
+/* die over */
+
+
+
+/* background: #0B2434;  bg dark*/
+/* background: #F5F5F5;  bg light*/
+/* background: #59E391;  bg green*/
+/* background: #2B283A;  bg number - text*/
+/* background: #4A4E74; light text */
+/* background: #5035FF; bg button */
+/* background: #FFFFFF; white */
+
